@@ -23,7 +23,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.base.svg
+          filename: metrics.svg
           config_display: large
           base: activity, community, metadata, repositories
           plugin_isocalendar: yes
